@@ -1,37 +1,108 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>2ich4n index</title>
+<style>
+body{
+	background-color:black;
+ 	background-size: 100% 100%;
+	line-height: 100px;
+	}	
+ul {
+	list-style-type:none;
+	}
 
-You can use the [editor on GitHub](https://github.com/Simple2ich4n/test/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+* {
+	margin:0px 0px;
+	 }
+.menu {	
+	text-align:center;
+    	margin: 0 auto;
+	width:1250px;
+	background:green;
+	 }
+.nav {
+	margin:0 auto;
+	width:1250px; 
+	height:45px;
+	}
+.nav a{
+	float:left;
+	width:80px; 
+	line-height:45px;
+	text-align:center;
+	text-decoration: none; 
+	font-size:20px;
+	color: black;
+	}
+.nav li a:hover{
+	background-color:lightblue;
+	text-decoration:none;
+	}
+.nav li a:link{
+	text-decoration:none
+	}
+.header{
+	background-color:gray;
+	width:1250px;
+	height:150px;
+	text-align:center;
+    	margin: 10px auto;
+    	padding: 0 auto;
+	}
+.main{
+	background-color:yellow;
+	width:1250px;
+	height:400px;
+	text-align:center;
+    	margin: 10px auto;
+    	padding: 0 auto;
+	}
+.footer{
+	background-color:red;
+	width:1250px;
+	height:100px;
+	text-align:center;
+	text-decoration: none; 
+	font-size:20px;
+	color: black;
+    	margin: 10px auto;
+    	padding: 0 auto;
+	}
+.footer p{
+	width:0 auto; 
+	text-align:center;
+	text-decoration: none; 
+	font-size:20px;
+	color: black;
+	}
+</style>
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+<div class="menu">
+	<div class="nav">
+		<ul>
+			<li><a href="#">index</a></li>
+			<li><a href="#">about</a></li>
+		</ul>
+	</div>
 
-### Markdown
+</div>    
+	
+<div class="header">
+	<p>header pic</p>
+</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<div class="main">
+	<p>main</p>
+</div>
 
-```markdown
-Syntax highlighted code block
+<div class="footer">
+	<p>Prod by. 2ich4n</p>
+</div>
 
-# Header 1
-## Header 2
-### Header 3
+</body>
+</html>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Simple2ich4n/test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
